@@ -9,40 +9,42 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="font/font.css">
     <link rel="stylesheet" href="fontqmz/font.css">
+  
     <title>My Car</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.svg" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">icarə avtomobillər <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">İcarə avtomobillər <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">korporativ əməkdaşlıq</a>
+                        <a class="nav-link" href="#">Korporativ əməkdaşlıq</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">şirkət</a>
+                        <a class="nav-link" href="#">Şirkət</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">əlaqə</a>
+                        <a class="nav-link" href="#">Əlaqə</a>
                     </li>
                 </ul>
                 <div class="rightSide">
                     <div class="language">
                         <div class="activeLang">
                             <img src="img/az.png" alt="">
-                            <i class="fas fa-times"></i>
+                            <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="langDropdown">
                             <a href="">
@@ -60,7 +62,8 @@
 
                     <div class="notifications">
                         <div class="bell">
-                            <svg viewBox="0 0 32 32" class="r-1khnkhu r-4qtqp9 r-yyyyoo r-mabqd8 r-1dl2rms r-4wgw6l r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz">
+                            <svg viewBox="0 0 32 32"
+                                class="r-1khnkhu r-4qtqp9 r-yyyyoo r-mabqd8 r-1dl2rms r-4wgw6l r-bnwqim r-1plcrui r-lrvibr r-1yvhtrz">
                                 <g>
                                     <path
                                         d="M28.86 24.48c-1.56-2.59-2.29-5.67-2.98-8.63-1.24-5.26-2.53-10.68-8.88-11.2V3a1 1 0 00-1-1 1 1 0 00-1 1v1.65c-6.48.51-7.72 5.93-8.92 11.2-.67 2.97-1.37 6.04-2.93 8.63-.42.64.1 1.54.85 1.52h7.1a5 5 0 009.8 0H28c.75.02 1.27-.88.86-1.52zM16 28c-1.3 0-2.4-.84-2.82-2h5.63A2.99 2.99 0 0116 28zM5.67 24c1.17-2.46 1.77-5.12 2.36-7.7C9.44 10.1 10.5 6.6 16 6.6c5.38 0 6.47 3.51 7.93 9.71.61 2.58 1.23 5.23 2.4 7.69H5.67z">
@@ -94,12 +97,26 @@
         </div>
     </nav>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls"  class="carousel slide" data-ride="carousel">
+       <div class="container carouselContainer">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="row">
                     <div class="col-6 sliderImg">
-                        <img src="img/slider1.png" alt="">
+                        <img src="img/slider2.png" alt="">
+                    </div>
+                    <div class="col-6 sliderText">
+                        <div>
+                            <h1>Lorem, ipsum dolor.</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, tempora.</p>
+                            <button class="btn">Rent a car</button>
+                        </div>
+                    </div>
+                </div>
+            </div> <div class="carousel-item">
+                <div class="row">
+                    <div class="col-6 sliderImg">
+                        <img src="img/slider2.png" alt="">
                     </div>
                     <div class="col-6 sliderText">
                         <div>
@@ -111,49 +128,50 @@
                 </div>
             </div>
 
-
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <div class="slider-arrow">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <svg class="card-landing-promo-arrow-self-197" viewBox="0 0 24 24" focusable="false"><path class="card-landing-promo-arrow-path-198" d="M5.414 11H20.8c.663 0 1.2.448 1.2 1s-.537 1-1.2 1H5.414l5.293 5.293a1 1 0 0 1-1.414 1.414l-7-7A.997.997 0 0 1 2 12.001v-.002c0-.255.098-.511.293-.706l7-7a1 1 0 0 1 1.414 1.414L5.414 11z"></path></svg>
                 <span class="sr-only">Previous</span>
             </div>
         </a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <div class="slider-arrow">
-
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <svg class="card-landing-promo-arrow-self-197" viewBox="0 0 24 24" focusable="false"><path class="card-landing-promo-arrow-path-198" d="M5.414 11H20.8c.663 0 1.2.448 1.2 1s-.537 1-1.2 1H5.414l5.293 5.293a1 1 0 0 1-1.414 1.414l-7-7A.997.997 0 0 1 2 12.001v-.002c0-.255.098-.511.293-.706l7-7a1 1 0 0 1 1.414 1.414L5.414 11z"></path></svg>
                 <span class="sr-only">Next</span>
             </div>
 
         </a>
+       </div>
     </div>
 
     <section class="cars">
         <div class="container">
+            <div class="title"><h2>Avtomobillər</h2></div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="car">
                         <div class="corona">
-                            <img src="img/corona.png" alt="">
+                        <i class="fas fa-virus"></i>
                             <div class="text">Covid-19 əleyhinə dezinfeksiya olunub</div>
                         </div>
-                        <img src="img/car1.jpg" alt="">
+                      <div class="carImg">
+                            <img src="img/car1.jpg" alt="">
+                      </div>
                         <div class="text">
                             <span class="property">2.4 l, benzin, avtomat</span>
                             <h3>Hyundai Sonata 2015 <span class="price">
                                     <span class="number">49</span>
-                                <span class="currency">
+                                    <span class="currency">
                                         <span class="azn">M</span>
-                                <span>-dan</span>
-                                </span>
+                                        <span class="from">-dan</span>
+                                    </span>
                                 </span>
                             </h3>
                             <div class="star">
                                 <div class="starIcon">
                                     <span>5</span>
-
-                                    <img src="img/star.svg" alt="">
+                                 <img src="img/star.svg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -164,25 +182,27 @@
                 <div class="col-md-4">
                     <div class="car">
                         <div class="corona">
-                            <img src="img/corona.png" alt="">
+                        <i class="fas fa-virus"></i>
                             <div class="text">Covid-19 əleyhinə dezinfeksiya olunub</div>
                         </div>
-                        <img src="img/car1.jpg" alt="">
+                      <div class="carImg">
+                            <img src="img/car1.jpg" alt="">
+                      </div>
                         <div class="text">
                             <span class="property">2.4 l, benzin, avtomat</span>
                             <h3>Hyundai Sonata 2015 <span class="price">
                                     <span class="number">49</span>
-                                <span class="currency">
+                                    <span class="currency">
                                         <span class="azn">M</span>
-                                <span>-dan</span>
-                                </span>
+                                        <span class="from">-dan</span>
+                                    </span>
                                 </span>
                             </h3>
                             <div class="star">
                                 <div class="starIcon">
                                     <span>5</span>
 
-                                    <img src="img/star.svg" alt="">
+                                 <img src="img/star.svg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -193,25 +213,27 @@
                 <div class="col-md-4">
                     <div class="car">
                         <div class="corona">
-                            <img src="img/corona.png" alt="">
+                        <i class="fas fa-virus"></i>
                             <div class="text">Covid-19 əleyhinə dezinfeksiya olunub</div>
                         </div>
-                        <img src="img/car1.jpg" alt="">
+                      <div class="carImg">
+                            <img src="img/car1.jpg" alt="">
+                      </div>
                         <div class="text">
                             <span class="property">2.4 l, benzin, avtomat</span>
                             <h3>Hyundai Sonata 2015 <span class="price">
                                     <span class="number">49</span>
-                                <span class="currency">
+                                    <span class="currency">
                                         <span class="azn">M</span>
-                                <span>-dan</span>
-                                </span>
+                                        <span class="from">-dan</span>
+                                    </span>
                                 </span>
                             </h3>
                             <div class="star">
                                 <div class="starIcon">
                                     <span>5</span>
 
-                                    <img src="img/star.svg" alt="">
+                                 <img src="img/star.svg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -255,7 +277,7 @@
         <div class="container">
             <div class="title">
                 <h2>Sağlamlığınız və cibiniz üçün risksiz</h2>
-                <p>Bütün avtomobillər 100% kasko ilə siğortalanıb</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
             </div>
             <div class="main">
                 <div class="row">
@@ -266,22 +288,22 @@
                             </div>
                             <div class="text">
                                 <h3>
-                                    Lorem, ipsum dolor.
+                                    Paşa sığorta
                                 </h3>
-                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Bütün avtomobillər 100% kasko ilə sığortalanıb</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="type">
                             <div class="img">
-                                <img src="img/insurance1.png" alt="">
+                                <img class="noVirus" src="img/noVirus.png" alt="">
                             </div>
                             <div class="text">
                                 <h3>
                                     Lorem, ipsum dolor.
                                 </h3>
-                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Bütün avtomobillər Covid-19 əleyhinə dezinfeksiya olunub</p>
                             </div>
                         </div>
                     </div>
@@ -290,13 +312,82 @@
         </div>
     </section>
 
+    <section class="callToAction">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="title">
+                        <h2> Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maiores.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 parkCol">
+                    <div class="park">
+                        <img src="img/car1.webp" class="car1" alt="">
+                        <img src="img/car2.webp" class="car2" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wh">
+        <a href="https://api.whatsapp.com/send?phone=+994555555555&amp;text=Salam, sizə mycar.az saytından yazıram.."
+            class="whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <span>Bir kliklə WhatsApp-a yazın</span>
+        </a>
+    </section>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a class="logo" href="#"><img src="img/logo.svg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="footerContent company">
+                <h5>Şirkət</h5>
+                <ul>
+                  <li><a href="">Şirkət haqqında</a></li>
+                  <li><a href="">Avtopark</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="footerContent">
+                <h5>Xidmətlər</h5>
+                <ul>
+                  <li><a href="">Yükdaşıma</a></li>
+                  <li><a href="">Korporativ əməkdaşlıq</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="row footerBottom">
+            <div class="col-md-8 copyRightCol">
+              <span> &#169; 2021 mycar</span>
+              <a class="okmedia" href="https://okmedia.az/" target="_blank"> <span>Saytın hazırlanması</span>
+                <img src="img/okmedia.png" alt="okmedia">
+              </a>
+            </div>
+            <div class="col-md-4 social">
+              <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+     </footer>
+    
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <!-- <script src="js/fontawesome.js"></script> -->
-    <script src="https://kit.fontawesome.com/569655bed9.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome.js"></script>
     <script src="js/index.js"></script>
 </body>
 
