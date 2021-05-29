@@ -41,9 +41,9 @@ button:hover {
 }
 
 .title p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.55;
-  font-weight: 500;
+  color: #9b9b9b;
 }
 
 nav {
@@ -676,11 +676,6 @@ footer {
           align-items: center;
 }
 
-.insurance .type .noVirus {
-  -webkit-filter: hue-rotate(237deg);
-          filter: hue-rotate(237deg);
-}
-
 .insurance .type .img {
   min-width: 96px;
   min-height: 96px;
@@ -710,7 +705,7 @@ footer {
 }
 
 .insurance .type .text p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.55;
   font-weight: 500;
   margin-bottom: 0;
@@ -768,6 +763,7 @@ footer {
 
 .callToAction .title p {
   margin: 30px 0;
+  color: white;
 }
 
 .callToAction button {
@@ -857,19 +853,31 @@ footer .logo img {
   width: 30%;
 }
 
+footer .subLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .subLogo img {
+  width: 80px;
+}
+
 footer .footerContent {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
   margin-left: auto;
+}
+
+footer .footerContent h5 {
+  font-weight: 900;
 }
 
 footer li {
   margin-top: 24px;
+  font-size: 14px;
 }
 
 footer li a {
-  color: black;
+  color: #636363;
   text-transform: capitalize;
 }
 
@@ -888,6 +896,7 @@ footer .footerBottom .copyRightCol {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 13px;
 }
 
 footer .footerBottom .okmedia {
@@ -895,7 +904,7 @@ footer .footerBottom .okmedia {
 }
 
 footer .footerBottom .okmedia img {
-  width: 100px;
+  width: 95px;
 }
 
 footer .footerBottom .okmedia img:hover {

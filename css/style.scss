@@ -38,9 +38,9 @@ button {
         font-weight: 700;
     }
     p {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.55;
-        font-weight: 500;
+        color: #9b9b9b;
     }
 }
 
@@ -497,9 +497,6 @@ footer {
         border-radius: 10px;
         display: flex;
         align-items: center;
-        .noVirus {
-            filter: hue-rotate( 237deg);
-        }
         .img {
             min-width: 96px;
             min-height: 96px;
@@ -521,7 +518,7 @@ footer {
                 margin-bottom: 0;
             }
             p {
-                font-size: 15px;
+                font-size: 14px;
                 line-height: 1.55;
                 font-weight: 500;
                 margin-bottom: 0;
@@ -576,6 +573,7 @@ footer {
         }
         p {
             margin: 30px 0;
+            color: white;
         }
     }
     button {
@@ -653,14 +651,24 @@ footer {
             width: 30%;
         }
     }
+    .subLogo {
+        display: flex;
+        img {
+            width: 80px;
+        }
+    }
     .footerContent {
-        width: max-content;
+        // width: max-content;
         margin-left: auto;
+        h5 {
+            font-weight: 900;
+        }
     }
     li {
         margin-top: 24px;
+        font-size: 14px;
         a {
-            color: black;
+            color: #636363;
             text-transform: capitalize;
         }
     }
@@ -672,11 +680,12 @@ footer {
         .copyRightCol {
             display: flex;
             align-items: center;
+            font-size: 13px;
         }
         .okmedia {
             margin-left: 50px;
             img {
-                width: 100px;
+                width: 95px;
                 &:hover {
                     filter: grayscale(1);
                 }
