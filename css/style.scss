@@ -566,8 +566,27 @@ footer {
 .callToAction {
     background-color: $primaryColor;
     color: white;
+    .title {
+        h2 {
+            margin-bottom: 0;
+            line-height: 1;
+        }
+        p {
+            margin: 30px 0;
+        }
+    }
     h2 {
         color: white;
+    }
+    button {
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        box-shadow: 0 12px 15px 0 #0000000d;
+        padding: 13px 38px;
+        background-color: white;
+        font-size: 19px;
+        font-weight: 500;
+        border-radius: 29px;
+        line-height: 1;
     }
     .parkCol {
         .park {
@@ -577,7 +596,6 @@ footer {
                 position: absolute;
                 bottom: -46px;
                 left: -60px;
-                // transform: rotateZ(327deg);
                 transform-origin: bottom;
             }
         }
