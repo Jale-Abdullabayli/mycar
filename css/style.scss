@@ -657,12 +657,13 @@ footer {
     }
     .subLogo {
         display: flex;
+        align-items: center;
         img {
             width: 80px;
         }
     }
     .footerContent {
-        // width: max-content;
+        width: fit-content;
         margin-left: auto;
         h5 {
             font-weight: 900;
