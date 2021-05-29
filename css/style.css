@@ -842,11 +842,14 @@ footer {
 }
 
 footer {
-  background-color: #f4f4f6 h5;
-  background-color-line-height: 30px;
-  background-color-font-size: 20px;
-  background-color-font-weight: 700;
-  background-color-margin-bottom: 10px;
+  background-color: #f4f4f6;
+}
+
+footer h5 {
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 footer .logo img {
