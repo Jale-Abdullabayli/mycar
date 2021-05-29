@@ -97,12 +97,13 @@ nav .rightSide .language .activeLang {
 }
 
 nav .rightSide .language img {
-  width: 36px;
+  width: 30px;
 }
 
 nav .rightSide .language i {
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
+  font-size: 10px;
 }
 
 nav .rightSide .language.open .langDropdown {
@@ -138,6 +139,7 @@ nav .rightSide .language .langDropdown a {
   padding: 13px 20px;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
+  font-size: 13px;
 }
 
 nav .rightSide .language .langDropdown a:hover {
@@ -145,7 +147,8 @@ nav .rightSide .language .langDropdown a:hover {
 }
 
 nav .rightSide .language .langDropdown a img {
-  margin-right: 10px;
+  margin-right: 6px;
+  margin-top: -2px;
 }
 
 nav .rightSide .notifications {
@@ -245,10 +248,9 @@ nav .rightSide .notifications .bell.showNotification::after {
 }
 
 nav .rightSide .notifications .bell svg {
-  width: 32px;
-  color: #333333;
-  height: 32px;
   fill: #7a7a7a;
+  width: 28px;
+  height: 28px;
 }
 
 nav .rightSide .notifications .notificationDropdown {
@@ -315,12 +317,13 @@ nav .rightSide .notifications .notificationDropdown .notification .text span {
 }
 
 nav .rightSide .whatsAppButton {
-  border-radius: 21px;
-  font-size: 14px;
-  background-color: #22ca46;
+  border-radius: 35px;
+  font-size: 13px;
+  background-color: #38b86f;
   color: white;
   border: none;
-  padding: 14px 24px;
+  padding: 15px 38px;
+  font-weight: 500;
   line-height: 1;
 }
 

@@ -81,10 +81,11 @@ nav {
                 line-height: 80px;
             }
             img {
-                width: 36px;
+                width: 30px;
             }
             i {
                 transition: 0.2s ease;
+                font-size: 10px;
             }
             &.open {
                 .langDropdown {
@@ -110,11 +111,13 @@ nav {
                     color: black;
                     padding: 13px 20px;
                     transition: 0.2s ease;
+                    font-size: 13px;
                     &:hover {
                         background-color: #f8f8f8;
                     }
                     img {
-                        margin-right: 10px;
+                        margin-right: 6px;
+                        margin-top: -2px;
                     }
                 }
             }
@@ -175,10 +178,9 @@ nav {
                     }
                 }
                 svg {
-                    width: 32px;
-                    color: rgb(51, 51, 51);
-                    height: 32px;
                     fill: #7a7a7a;
+                    width: 28px;
+                    height: 28px;
                 }
             }
             .notificationDropdown {
@@ -229,12 +231,13 @@ nav {
             }
         }
         .whatsAppButton {
-            border-radius: 21px;
-            font-size: 14px;
-            background-color: #22ca46;
+            border-radius: 35px;
+            font-size: 13px;
+            background-color: #38b86f;
             color: white;
             border: none;
-            padding: 14px 24px;
+            padding: 15px 38px;
+            font-weight: 500;
             line-height: 1;
         }
     }
